@@ -55,7 +55,7 @@ static void event_cb(lv_event_t *e)
 void lv_example_event_4(void)
 {
 
-    lv_obj_t *cont = lv_obj_create(lv_scr_act());
+    lv_obj_t *cont = lv_obj_create(lv_scr_act()); //新建屏幕
     lv_obj_remove_style_all(cont);
     lv_obj_set_size(cont, 300, 300);
     label = lv_label_create(cont);

@@ -89,8 +89,8 @@ uint8_t boot_music[4365];
 #define VAD_FRAME_LENGTH_MS                     30
 #define VAD_BUFFER_LENGTH                       (VAD_FRAME_LENGTH_MS * MIC_I2S_SAMPLE_RATE / 1000)
 
-#define WIFI_SSID             "Your WiFi SSID"
-#define WIFI_PASSWORD         "Your WiFi PASSWORD"
+#define WIFI_SSID             "iPhone"
+#define WIFI_PASSWORD         "12345678"
 
 #define WIFI_CONNECT_WAIT_MAX (30 * 1000)
 

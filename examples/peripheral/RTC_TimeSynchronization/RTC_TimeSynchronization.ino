@@ -12,8 +12,8 @@
 #include <WiFi.h>
 #include <sntp.h>
 
-const char *ssid       = "YOUR_SSID";
-const char *password   = "YOUR_PASS";
+const char *ssid       = "USR";
+const char *password   = "12345678";
 
 const char *ntpServer1 = "pool.ntp.org";
 const char *ntpServer2 = "time.nist.gov";
